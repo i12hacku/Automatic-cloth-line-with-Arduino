@@ -54,8 +54,14 @@ void loop() {
 
         //Rotate motor anticlockwise
           digitalWrite(4, HIGH);
-          delay(1000);
+          delay(200);
           digitalWrite(4, LOW);
+
+          delay(500);
+
+          digitalWrite(4,LOW);
+          delay(100);
+          digitalWrite(4,LOW);
 
           digitalWrite(buzzerout, HIGH);  // turn off buzzer 
       
@@ -68,8 +74,13 @@ void loop() {
 
             
             digitalWrite(5, HIGH);
-            delay(1000);
+            delay(200);
             digitalWrite(5, LOW);
+            delay(500);
+
+            digitalWrite(5,LOW);
+            delay(100);
+            digitalWrite(5,LOW);
 
                 digitalWrite(buzzerout, LOW);  // turn off buzzer 
         }
