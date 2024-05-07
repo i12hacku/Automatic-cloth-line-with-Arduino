@@ -6,7 +6,7 @@ int buzzerout= 10;  // digital output pin 10 - buzzer output
 int countval= 0;  // counter value starting from 0 and goes up by 1 every second
 int ledout= 11; // digital output pin 11 - led output
 
-
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 //Definitions
 
